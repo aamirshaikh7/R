@@ -1,0 +1,14 @@
+numbers <- c(1, 2)
+numbers
+
+names <- c("John doe", "Jane doe")
+
+names
+
+played <- c(10, 100)
+
+won <- c(5, 50)
+
+lost <- c(5, 50)
+
+year <- c(2011, 2010)
