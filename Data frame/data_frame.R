@@ -12,3 +12,12 @@ won <- c(5, 50)
 lost <- c(5, 50)
 
 year <- c(2011, 2010)
+
+df <- data.frame(names, played, won, lost, year)
+df
+
+View(df)
+
+df$names
+
+df$won
