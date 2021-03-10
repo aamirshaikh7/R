@@ -21,3 +21,12 @@ View(df)
 df$names
 
 df$won
+
+ratio <- df$won / df$played
+ratio
+
+df$victory <- ratio
+
+View(df)
+
+mean(df$played)
