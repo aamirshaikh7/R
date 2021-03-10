@@ -30,3 +30,7 @@ df$victory <- ratio
 View(df)
 
 mean(df$played)
+
+plot(df$names, df$played)
+
+write.csv(df, "df.csv")
